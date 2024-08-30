@@ -36,7 +36,9 @@
   "resources":[
     {"id":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},},
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
+    {"id":{"name":"obj_falling_block","path":"objects/obj_falling_block/obj_falling_block.yy",},},
     {"id":{"name":"obj_falling_spike","path":"objects/obj_falling_spike/obj_falling_spike.yy",},},
+    {"id":{"name":"obj_falling_up_spike","path":"objects/obj_falling_up_spike/obj_falling_up_spike.yy",},},
     {"id":{"name":"obj_loader","path":"objects/obj_loader/obj_loader.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_save_point","path":"objects/obj_save_point/obj_save_point.yy",},},
@@ -44,6 +46,7 @@
     {"id":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
     {"id":{"name":"rm_level1","path":"rooms/rm_level1/rm_level1.yy",},},
     {"id":{"name":"rm_level2","path":"rooms/rm_level2/rm_level2.yy",},},
+    {"id":{"name":"rm_level3","path":"rooms/rm_level3/rm_level3.yy",},},
     {"id":{"name":"fuse_objects_horizontal","path":"scripts/fuse_objects_horizontal/fuse_objects_horizontal.yy",},},
     {"id":{"name":"fuse_objects_vertical","path":"scripts/fuse_objects_vertical/fuse_objects_vertical.yy",},},
     {"id":{"name":"fuse_objects","path":"scripts/fuse_objects/fuse_objects.yy",},},
@@ -73,6 +76,7 @@
     {"roomId":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
     {"roomId":{"name":"rm_level1","path":"rooms/rm_level1/rm_level1.yy",},},
     {"roomId":{"name":"rm_level2","path":"rooms/rm_level2/rm_level2.yy",},},
+    {"roomId":{"name":"rm_level3","path":"rooms/rm_level3/rm_level3.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_falling_spike",
+  "%Name":"obj_falling_block",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_falling_spike",
+  "name":"obj_falling_block",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_spike",
-    "path":"objects/obj_spike/obj_spike.yy",
+    "name":"obj_collision",
+    "path":"objects/obj_collision/obj_collision.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_spike",
-    "path":"sprites/spr_spike/spr_spike.yy",
+    "name":"spr_wall",
+    "path":"sprites/spr_wall/spr_wall.yy",
   },
   "spriteMaskId":null,
   "visible":true,

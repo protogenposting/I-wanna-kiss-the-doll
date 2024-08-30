@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_falling_spike",
+  "%Name":"obj_falling_up_spike",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_falling_spike",
+  "name":"obj_falling_up_spike",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
