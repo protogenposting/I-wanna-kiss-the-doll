@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"fuse_objects_vertical",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"fuse_objects_vertical",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
