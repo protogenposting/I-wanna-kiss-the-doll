@@ -17,13 +17,23 @@ var _moveHorizontal = check_input("Right")-check_input("Left") //the horizontal 
 if(_moveHorizontal!=0)
 {
 	//if we're moving, accelerate
-	horizontalSpeed = move_toward(horizontalSpeed,moveSpeed*_moveHorizontal,acceleration)
+	var _accel = acceleration
+	if(!is_on_ground())
+	{
+		_accel = airAcceleration
+	}
+	horizontalSpeed = move_toward(horizontalSpeed,moveSpeed*_moveHorizontal,_accel)
 	facing=sign(_moveHorizontal)
 }
 else
 {
+	var _accel = decceleration
+	if(!is_on_ground())
+	{
+		_accel = airDecceleration
+	}
 	//if we're not moving, deccelerate
-	horizontalSpeed = move_toward(horizontalSpeed,0,decceleration)
+	horizontalSpeed = move_toward(horizontalSpeed,0,_accel)
 }
 
 if(verticalSpeed<maxFallSpeed)

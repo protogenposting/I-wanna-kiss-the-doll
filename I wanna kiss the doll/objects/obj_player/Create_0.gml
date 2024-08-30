@@ -16,6 +16,10 @@ acceleration = 1
 
 decceleration = 0.5
 
+airAcceleration = 0.5
+
+airDecceleration = 0.25
+
 jumpsLeft = 0
 
 facing=1
@@ -77,13 +81,6 @@ function reset()
 	jumpsLeft = 0
 	
 	with(obj_spike)
-	{
-		x=xstart
-		y=ystart
-		hspeed=0
-		vspeed=0
-	}
-	with(obj_falling_block)
 	{
 		x=xstart
 		y=ystart
