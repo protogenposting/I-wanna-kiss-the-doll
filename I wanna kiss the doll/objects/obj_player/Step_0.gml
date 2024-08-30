@@ -76,4 +76,9 @@ y += verticalSpeed //move vertically
 
 camera.CameraMove(id,horizontalSpeed,0)
 
+if(y>room_height)
+{
+	die()
+}
+
 state_update()
