@@ -84,7 +84,7 @@ if(place_meeting(x,y+verticalSpeed,obj_collision))
 
 y += verticalSpeed //move vertically
 
-camera.CameraMove(id,horizontalSpeed,0)
+camera.CameraMove(id,horizontalSpeed,-verticalSpeed)
 
 if(y>room_height)
 {

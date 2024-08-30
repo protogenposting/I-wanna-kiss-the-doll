@@ -42,6 +42,10 @@ add_input(gp_face1,"Jump",controlTypes.gamepad)
 
 function is_on_ground()
 {
+	if(place_meeting(x,y+1,obj_collision))
+	{
+		show_debug_message(y)
+	}
 	return place_meeting(x,y+1,obj_collision)
 }
 
