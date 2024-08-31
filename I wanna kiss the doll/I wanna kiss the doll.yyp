@@ -53,6 +53,7 @@
     {"id":{"name":"rm_level6","path":"rooms/rm_level6/rm_level6.yy",},},
     {"id":{"name":"rm_level7","path":"rooms/rm_level7/rm_level7.yy",},},
     {"id":{"name":"rm_level8","path":"rooms/rm_level8/rm_level8.yy",},},
+    {"id":{"name":"rm_level9","path":"rooms/rm_level9/rm_level9.yy",},},
     {"id":{"name":"fuse_objects_horizontal","path":"scripts/fuse_objects_horizontal/fuse_objects_horizontal.yy",},},
     {"id":{"name":"fuse_objects_vertical","path":"scripts/fuse_objects_vertical/fuse_objects_vertical.yy",},},
     {"id":{"name":"fuse_objects","path":"scripts/fuse_objects/fuse_objects.yy",},},
@@ -89,6 +90,7 @@
     {"roomId":{"name":"rm_level6","path":"rooms/rm_level6/rm_level6.yy",},},
     {"roomId":{"name":"rm_level7","path":"rooms/rm_level7/rm_level7.yy",},},
     {"roomId":{"name":"rm_level8","path":"rooms/rm_level8/rm_level8.yy",},},
+    {"roomId":{"name":"rm_level9","path":"rooms/rm_level9/rm_level9.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
