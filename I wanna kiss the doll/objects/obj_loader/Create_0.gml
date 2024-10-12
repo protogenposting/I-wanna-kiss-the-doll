@@ -4,8 +4,6 @@ loadedFile = load_file(saveName)
 
 checkpoints=[]
 
-audio_play_sound(snd_music,1000,true)
-
 if(loadedFile!=false)
 {
 	room_goto(loadedFile.room)
@@ -14,11 +12,10 @@ if(loadedFile!=false)
 else
 {
 	loadedFile = {
-		room : rm_cutscene1,
+		room : rm_level1,
 		checkPoint : 0
 	}
-	room_goto(loadedFile.room)
-	alarm[0]=2
+	room_goto(rm_cutscene1)
 }
 
 function save(){

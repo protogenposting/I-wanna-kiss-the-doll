@@ -14,11 +14,12 @@ if(_data[0] == 0)
 			var _chromasurf = _data[2];
 			if(surface_exists(_surf) and surface_exists(_chromasurf))
 			{
+				var _videochromasampler = shader_get_sampler_index(shader_YUV, "v_chroma");
 				shader_set(shader_YUV);
 			
 				var _tex_id = surface_get_texture(_surf);
 				var _chroma_tex_id = surface_get_texture(_chromasurf);
-				texture_set_stage(videochromasampler, _chroma_tex_id);
+				texture_set_stage(_videochromasampler, _chroma_tex_id);
 				gpu_set_texfilter(false);
 			
 				draw_primitive_begin_texture(pr_trianglestrip, _tex_id);
