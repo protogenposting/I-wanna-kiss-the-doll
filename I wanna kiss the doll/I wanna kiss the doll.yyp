@@ -27,7 +27,9 @@
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"cutscene 1.mov","CopyToMask":-1,"filePath":"datafiles","name":"cutscene 1.mov","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"cutscene 1.mp4","CopyToMask":-1,"filePath":"datafiles","name":"cutscene 1.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"cutscene 2.mov","CopyToMask":-1,"filePath":"datafiles","name":"cutscene 2.mov","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"cutscene 2.mp4","CopyToMask":-1,"filePath":"datafiles","name":"cutscene 2.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,

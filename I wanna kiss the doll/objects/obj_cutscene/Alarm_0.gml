@@ -1,1 +1,1 @@
-video_open("cutscene 1.mp4")
+video_open("cutscene 1.mov")
