@@ -14,7 +14,7 @@ if(loadedFile!=false)
 else
 {
 	loadedFile = {
-		room : rm_level1,
+		room : rm_cutscene1,
 		checkPoint : 0
 	}
 	room_goto(loadedFile.room)
