@@ -35,3 +35,8 @@ if(_data[0] == 0)
 		break;
 	}
 }
+
+if(video_get_status() == video_status_closed)
+{
+	room_goto(rm_level1)
+}

@@ -1,1 +1,1 @@
-alarm[0] = 5
+video_open("cutscene 1.mp4")
