@@ -38,5 +38,9 @@ if(_data[0] == 0)
 
 if(video_get_status() == video_status_closed)
 {
+	if(room == rm_cutscene2)
+	{
+		game_end()
+	}
 	room_goto(rm_level1)
 }

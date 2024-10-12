@@ -65,17 +65,26 @@ function state_update()
 	}
 }
 
+deathParticles = -4
+
+deathTimer = 0
+
 function die()
 {
 	if(alarm[0]<=0)
 	{
 		audio_play_sound(snd_die,1000,false)
-		alarm[0]=15
+		deathParticles = part_system_create(p_dead)
+		part_system_position(deathParticles,x,y)
+		alarm[0]=30
+		deathTimer = 60
 	}
 }
 
 function reset()
 {
+	
+	part_system_destroy(deathParticles)
 	x=spawnX
 	y=spawnY
 	

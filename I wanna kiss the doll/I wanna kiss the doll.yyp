@@ -50,6 +50,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_save_point","path":"objects/obj_save_point/obj_save_point.yy",},},
     {"id":{"name":"obj_spike","path":"objects/obj_spike/obj_spike.yy",},},
+    {"id":{"name":"p_dead","path":"particles/p_dead/p_dead.yy",},},
     {"id":{"name":"rm_cutscene1","path":"rooms/rm_cutscene1/rm_cutscene1.yy",},},
     {"id":{"name":"rm_cutscene2","path":"rooms/rm_cutscene2/rm_cutscene2.yy",},},
     {"id":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},

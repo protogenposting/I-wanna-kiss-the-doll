@@ -1,1 +1,5 @@
-draw_sprite_ext(sprite_index,image_index,x,y,facing,1,0,c_white,1)
+
+if(alarm[0]<=0)
+{
+	draw_sprite_ext(sprite_index,image_index,x,y,facing,1,0,c_white,1)
+}
