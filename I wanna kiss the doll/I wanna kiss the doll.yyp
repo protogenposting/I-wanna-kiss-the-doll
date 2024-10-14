@@ -41,6 +41,7 @@
   "resources":[
     {"id":{"name":"obj_bumper","path":"objects/obj_bumper/obj_bumper.yy",},},
     {"id":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},},
+    {"id":{"name":"obj_cutscene_2","path":"objects/obj_cutscene_2/obj_cutscene_2.yy",},},
     {"id":{"name":"obj_cutscene","path":"objects/obj_cutscene/obj_cutscene.yy",},},
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
     {"id":{"name":"obj_falling_block","path":"objects/obj_falling_block/obj_falling_block.yy",},},
