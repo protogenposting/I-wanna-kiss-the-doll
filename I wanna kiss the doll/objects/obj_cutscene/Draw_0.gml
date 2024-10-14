@@ -5,7 +5,7 @@ if(_data[0] == 0)
 	{
 		case video_format_rgba:
 			var _surf = _data[1];
-			draw_surface(_surf,0,0);
+			draw_surface_ext(_surf,0,0,room_width/surface_get_width(_surf),room_height/surface_get_height(_surf),0,c_white,1);
 		break;
 	
 		//  #### YUV PART HERE ####
